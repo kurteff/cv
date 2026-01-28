@@ -1,0 +1,563 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preamble                                  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \documentclass{resume} % Use the custom resume.cls style
+
+    \usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+    \usepackage{tipa}
+    %\usepackage{emoji} % REQUIRES LUALATEX
+
+    \usepackage{hyperref}
+    \usepackage{amsmath}
+    \usepackage{tabularx}
+    \usepackage{enumitem} % For customizing item spacing
+
+    \newcolumntype{L}{>{\raggedright\arraybackslash}X}
+
+    \newcommand{\cvpub}[3]{%
+      \item
+      \begin{minipage}[t]{\textwidth}
+        \begin{tabularx}{\textwidth}[t]{@{}X@{} r@{}}
+          \parbox[t]{0.85\textwidth}{#1} &
+          \hspace{-3.5em}
+          \makebox[0pt][r]{%
+            \begin{tabular}[t]{@{}r@{}}
+              \href{#2}{[doi]} \\
+              \href{#3}{[pdf]}
+            \end{tabular}
+          }
+        \end{tabularx}
+      \end{minipage}
+    }
+
+    \hypersetup{
+        colorlinks=true,
+        linkcolor=blue,
+        urlcolor=blue,
+        % filecolor=magenta,      
+        % urlcolor=cyan,
+        % pdftitle={Overleaf Example},
+        % pdfpagemode=FullScreen,
+    }
+
+    \name{\LARGE{
+        G. Lynn Kurteff, PhD, CF-SLP
+    }}% Your name
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Header                                    %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{center}
+        $\text{they}/\text{them} \lor \text{she}/\text{her}$
+    \end{center}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Contacts                                  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Contact}
+        \begin{rSubsection}{}{}{}{}
+            \item{
+                E-mail: \texttt{lynn} [dot] \texttt{kurteff} [at] \texttt{ucsf} [dot] \texttt{edu}
+            }
+            \item{
+                Website: \href{https://kurteff.github.io/}{kurteff.github.io}
+            }
+            \item{
+                ORCiD: \href{https://orcid.org/0000-0001-5800-546X}{0000-0001-5800-546X}
+            }
+        \end{rSubsection}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Position                                  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Current Position}
+        Postdoctoral researcher and clinical fellow, Edward and Pearl Fein Memory and Aging Center, department of Neurology, UC San Francisco
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Research Interests                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Research Interests}
+        \begin{rSubsection}{}{}{}{}
+            \item{
+                Neurobiology of speech perception \& production
+            }
+            \item{
+                Speech motor control and auditory feedback processing
+            }
+            \item{
+                Reorganization of language after stroke \& surgical intervention
+            }
+            \item{
+                Brain-to-text decoding, brain-computer interfaces
+            }
+        \end{rSubsection}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Clinical Interests                        %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Clinical Interests}
+        \begin{rSubsection}{}{}{}{}
+            \item{
+                Neurogenic communication disorders: aphasia \& apraxia of speech
+            }
+            \item{
+                Head \& neck cancer, dysphagia
+            }
+            \item{
+                Gender-affirming voice therapy
+            }
+        \end{rSubsection}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Education                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Education}
+
+        \begin{rSubsection}{PhD in Speech, Language \& Hearing Sciences}{2018 - 2024}{University of Texas at Austin}{Austin, TX}
+            \item{
+                Mentor: Liberty Hamilton
+            }
+            \item{
+                Other committee members: Jun Wang, Rosemary Lester-Smith, Maya Henry, Stephanie Riès
+            }
+            \item{
+                Dissertation: \emph{Cortical Suppression of Auditory Feedback during Speech Production and Perception}
+            }
+        \end{rSubsection}
+
+        \begin{rSubsection}{M.S. in Speech, Language \& Hearing Sciences}{2018 - 2020}{University of Texas at Austin}{Austin, TX}
+            \item{
+                Mentors: Liberty Hamilton, Rosemary Lester-Smith
+            }
+            \item{
+                Thesis: \emph{Modulation of Neural Responses to Naturalistic Speech Production and Perception}
+            }
+        \end{rSubsection}
+
+        \begin{rSubsection}{B.A. in Linguistics and Psychology}{2012 - 2015}{University of California, Berkeley}{Berkeley, CA}
+            \item{
+                Mentors: Keith Johnson, Lev Michael, Joseph Campos
+            }
+        \end{rSubsection}
+    \end{rSection}
+    \clearpage
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Honors and awards                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Honors and Awards}
+        \begin{rSubsection}{}{}{}{}
+            \item{
+                Academy of Aphasia, Mentorship Award, Fall 2025, \$1000
+            }
+            \item{
+                UT Austin CARE Research Day, Best Poster award, Spring 2024, \$50
+            }
+            \item{
+                Texas Speech-Language-Hearing Foundation, International travel grant, Spring 2024, \$1,700
+            }
+            \item{
+                William Orr Dingwall Foundation Dissertation Fellowship in the Cognitive, Clinical, and Neural Foundations of Language recipient, Fall 2023 - Spring 2024, \$40,000
+            }
+            \item{
+                UT Austin Graduate School Fellowship recipient, Summer 2023 (declined), \$10,672
+            }
+            \item{
+                Texas Speech-Language-Hearing Foundation, President's Research Endowment Fund recipient, Spring 2023, \$1,375
+            }
+            \item{
+                Cold Spring Harbor Laboratory Regeneron Scholarship recipient, Genetics \& Neurobiology of Language course, Summer 2022, \$1,750
+            }
+            \item{
+                TSHA 2022 Audiology Research Symposium award winner, Winter 2022, \$250
+            }
+            \item{
+                TSHA 2021 Audiology Research Symposium award winner, Spring 2021, \$250
+            }
+            \item{
+                UT Austin Moody Doctoral Fellowship recipient, Fall 2019 - Spring 2022, \$5,000
+            }
+            \item{
+                UT Austin Provost Fellowship recipient, Fall 2018 \& Summer 2019, \$5,000
+            }
+            \item{
+                UC Berkeley Dean's Honors, Spring 2015 \& Fall 2015
+            }
+        \end{rSubsection}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Publications                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Peer-reviewed Journal Articles \& Preprints}
+
+        \begin{rSubsection_pubs}{}{}{}{}
+            \cvpub
+                {\textbf{Kurteff, G.L.}, Walker, G.M., Fridriksson, J., \& Hickok, G. (2025). \emph{Mapping of critical prosodic and phonetic networks in post-stroke apraxia of speech.} bioRxiv preprint.}
+                {https://doi.org/10.64898/2025.12.16.694760}
+                {https://kurteff.github.io/assets/pdf/kurteff2025manuscript.pdf}
+
+            \cvpub
+                {Zhao, L., Silva, A.B., \textbf{Kurteff, G.L.}, \& Chang, E.F. (2025). \emph{Inhibitory control of speech production in the human premotor frontal cortex.} Nature Human Behavior.}
+                {https://doi.org/10.26153/tsw/56510}
+                {https://kurteff.github.io/assets/pdf/zhao2025manuscript.pdf}
+
+            \cvpub
+                {\textbf{Kurteff, G.L.}, Field, A.M., Asghar, S., Tyler-Kabara, E.C., Clarke, D., Weiner, H.L., Anderson, A.E., Watrous, A., Buchanan, R.J., Modur, P.N., \& Hamilton, L.S. (2024). \emph{Spatiotemporal mapping of auditory onsets during speech production.} Journal of Neuroscience.}
+                {http://dx.doi.org/10.1523/JNEUROSCI.1109-24.2024}
+                {https://kurteff.github.io/assets/pdf/kurteff2024manuscript.pdf}
+
+            \cvpub
+                {\textbf{Kurteff, G.L.}, Lester-Smith, R.A., Martinez, A., Currens, N., Holder, J., Villarreal, C., Mercado, V.R., Truong, C., Huber, C., Pokharel, P., \& Hamilton, L.S. (2023). \emph{Speaker-induced suppression in EEG during a naturalistic reading and listening task.} Journal of Cognitive Neuroscience.}
+                {https://doi.org/10.1162/jocn_a_02037}
+                {https://kurteff.github.io/assets/pdf/kurteff2023manuscript.pdf}
+            
+            \cvpub
+                {Levy, D.F., Silva, A.B., Scott, T., Liu, J., Harper, S., Zhao, L., Hullett, P., \textbf{Kurteff, G.}, Andrews, J., Wilson, S.M., Leonard, M., \& Chang, E.F. (2023). \emph{Apraxia of speech with phonological alexia and agraphia following resection of the left middle precentral gyrus.} Journal of Neurosurgery: Case Lessons.}
+                {https://doi.org/10.3171/case22504}
+                {https://kurteff.github.io/assets/pdf/levy2023manuscript.pdf}
+            
+            \cvpub
+                {Ammanuel, S., Almeida, N.C., \textbf{Kurteff, G.}, Kakaizada, S., Molinaro, A., Berger, M.S., Chang, E.F., \& Hervey-Jumper, S.L. (2021). \emph{Natural language assessment correlates with health-related quality of life in adult glioma patients.} Journal of Neuro-Oncology.}
+                {https://doi.org/10.1093/neuonc/noaa215.575}
+                {https://kurteff.github.io/assets/pdf/ammanuel2022manuscript.pdf}
+            
+            \cvpub
+                {Chang, E.F., \textbf{Kurteff, G.}, Andrews, J., Briggs, R.G., Conner, A.K., Battiste, J.D., \& Sughrue, M.E. (2020). \emph{Pure apraxia of speech after focal surgical resection of area 55b in dorsal premotor cortex.} Neurosurgery.}
+                {http://doi.org/10.1093/neuros/nyaa002}
+                {https://kurteff.github.io/assets/pdf/chang2020manuscript.pdf}
+            
+            \cvpub
+                {De Witte, E., Piai, V., \textbf{Kurteff, G.}, Cai, R., Mari{\"e}n, P., Dronkers, N., Chang, E.F., \& Berger, M.S. (2018). \emph{A valid alternative for in-person language assessments in brain tumor patients: Feasibility and validiy measures of the new TeleLanguage test.} Neuro-Oncology Practice.}
+                {http://doi.org/10.193/nop/npy020}
+                {https://kurteff.github.io/assets/pdf/dewitte2019manuscript.pdf}
+        
+            \cvpub
+                {Chang, E.F., \textbf{Kurteff, G.}, \& Wilson, S.M. (2018). \emph{Selective interference with syntactic encoding during sentence production by direct electrocortical stimulation of the inferior frontal gyrus.} Journal of Cognitive Neuroscience.}
+                {http://doi.org/10.1162/jocn_a_01215}
+                {https://kurteff.github.io/assets/pdf/chang2018manuscript.pdf}
+        \end{rSubsection_pubs}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% In prep                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Journal Articles in Preparation}
+        
+        \begin{rSubsection_list}{}{}{}{}
+            \item{
+                Walker, G.M., \textbf{Kurteff, G.L.}, Hussain, A., Fridriksson, J., \& Hickok, G. (in prep). \emph{Critical-network lesion-symptom mapping.}
+            }
+            \item{
+                Walker, G.M., \textbf{Kurteff, G.L.}, Fridriksson, J., \& Hickok, G. (in prep). \emph{Distinct sources of nonword errors in post stroke aphasia.}
+            }
+            \item{
+                \textbf{Kurteff, G.L.} \& Hamilton, L.S. (in prep). \emph{The human insular auditory field.}
+            }
+            \item{
+                \textbf{Kurteff, G.L.}, Field, A.M., Asghar, S., Tyler-Kabara, E.C., Clarke, D., Weiner, H.L., Anderson, A.E., Watrous, A., Buchanan, R.J., Modur, P.N., \& Hamilton, L.S. (in prep). \emph{onsetProd: an intracranial sEEG dataset of naturalistic sentence production and perception.}
+            }
+        \end{rSubsection_list}
+    \end{rSection}
+
+% \vspace{2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Posters                                   %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Conference Presentations}
+        \begin{rSubsection_list}{}{}{}{}
+            \item{\textbf{Kurteff, G.L.}, Walker, G.M., Fridriksson, J., \& Hickok, G. (2025). \emph{Mapping of critical prosodic and phonetic networks in post-stroke apraxia of speech}. Poster session presented at the Annual Meeting of the Academy of Aphasia, San Diego, CA.}
+
+            \item{\textbf{Kurteff, G.L.}, Tyler-Kabara, E.C., Clarke, D., Weiner, H.L., Anderson, A.E., Watrous, A., Asghar, S., Field, A., \& Hamilton, L.S. (2024). \emph{Intracranial EEG Processing of Auditory Feedback in Perisylvian Cortex}. Poster session presented at the Annual Meeting of the Cognitive Neuroscience Society, Toronto, ON, Canada.}
+
+            \item{Hamilton, L.S., Asghar, S., Desai, M,, \textbf{Kurteff, G.L.}, Field, A., Nussbaum, N.L., Clarke, D., Tyler-Kabara, E.C., Anderson, A., \& Weiner, H.L. (2023). \emph{Utilizing Clinical Intracranial Epilepsy Monitoring Infrastructure for Basic Science Research of Speech and Language Development}. Poster session presented at the Annual Meeting of the Child Neurology Society, Vancouver, BC, Canada.}
+            
+            \item{\textbf{Kurteff, G.}, \& Hamilton, L.S. (2022). \emph{Stereo EEG mapping of sensorimotor responses to self-generated speech.} Poster session presented at the Annual Meeting of the Texas Speech-Language Hearing Association, Fort Worth, TX; Association for Research in Otolaryngology, virtual meeting due to COVID-19.}
+
+            \item{Cheng, C., Young, N., Teplansky, K., \textbf{Kurteff, G.}, Salman, R., Mau, T., \& Wang, J. (2022). \emph{Fricative production in laryngeal, electrolaryngeal, and tracheoesophageal speech.} Poster session presented at the biannual meeting of the Conference on Motor Speech, Charleston, SC.}
+
+            \item{\textbf{Kurteff, G.}, \& Hamilton, L.S. (2021). \emph{Encoding of phonological features in intracranial recordings of human speech cortex during a dual perception-production task}. Poster session presented at the Annual Meeting of Advances and Perspectives in Auditory Neuroscience, virtual meeting due to COVID-19.} 
+
+            \item{\textbf{Kurteff, G.}, Martinez, A., Currens, N., Holder, J., Mercado, V., Truong, C., Huber, C., Pokharel, P., \& Hamilton, L.S. (2020a; 2021b). \emph{Methods for Investigating Continuous Speech Production and Perception with EEG.} Poster session presented at a. the Annual Meeting of the Society for Neurobiology of Language; b. Texas Speech-Language Hearing Association, virtual meetings due to COVID-19.}
+
+            \item{\textbf{Kurteff, G.}, Fox, N.P., Dronkers, N.F., Desai, M., Shafi, A., \& Chang, E.F. (2019). \emph{Behavioral and neuroanatomical description of stimulation-induced speech arrest.} Poster session presented at the Annual Meeting of the Cogntive Neuroscience Society, San Francisco, CA, USA.}
+
+            \item{Chang, E.F., \textbf{Kurteff, G.}, \& Wilson, S.M. (2017). \emph{Selective interference with syntactic encoding during sentence production by direct electrocortical stimulation of the inferior frontal gyrus.} Poster session presented at the Annual Meeting of the Society for the Neurobiology of Language, Baltimore, MD, USA.}
+
+            \item{De Witte, E., Piai, V., \textbf{Kurteff, G.}, Cai, R., Berger, M.S., Chang, E.F., \& Dronkers, N. (2016). \emph{Usability and validity of a phone battery to assess language functions in brain tumor patients undergoing awake surgery.} Poster session presented at the Annual Meeting of the Academy of Aphasia, Llandudno, Wales; UK and Society of Neurooncology, Scottsdale, AZ, USA. }
+        \end{rSubsection_list}
+    \end{rSection}
+
+% \vspace{2cm}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thesis & diss                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Theses and Dissertations}
+        \begin{rSubsection_pubs}{}{}{}{}
+            \cvpub
+                {\textbf{Kurteff, G.L.} (2024). \emph{Cortical Suppression of Auditory Feedback during Speech Production and Perception}. PhD dissertation.}
+                {https://doi.org/10.26153/tsw/56510}
+                {https://kurteff.github.io/assets/pdf/kurteff2024dissertation.pdf}
+            \cvpub
+                {\textbf{Kurteff, G.} (2020). \emph{Modulation of neural responses to naturalistic speech production and perception}. Masters thesis.}
+                {http://dx.doi.org/10.26153/tsw/14461}
+                {https://kurteff.github.io/assets/pdf/kurteff2020thesis.pdf}
+        \end{rSubsection_pubs}
+    \end{rSection}
+
+% \vspace{2.5cm}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Research xp                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Research Experience}
+        \begin{rSubsection}{UCSF Department of Neurology}{2025 - Present}{ALBA Language Neurobiology Lab - Postdoctoral Scholar}{San Francisco, CA}
+            \item{Principal Investigator: Maria Luisa Gorno-Tempini, MD, PhD}
+            \item{Postdoctoral fellowship focused on investigating patterns of dorsal stream impairment in people with primary progressive aphasia and primary progressive apraxia of speech}
+        \end{rSubsection}
+        \begin{rSubsection}{UC Irvine Department of Cognitive Sciences}{2024 - 2025}{Auditory \& Language Neuroscience Lab - Postdoctoral Scholar}{Irvine, CA}
+            \item{Principal Investigator: Greg Hickok}
+            \item{Postdoctoral fellowship funded through the Center for the Study of Aphasia Recovery (C-STAR) project, focused on investigating patterns of dorsal stream impairment in people with apraxia of speech}
+            \item{Established local sEEG data collection at UCI Douglas Hospital and an accompanying analysis pipeline}
+        \end{rSubsection}
+
+        \begin{rSubsection}{UT Austin Department of Speech, Language, and Hearing Sciences}{2024}{Hamilton Lab - Postdoctoral Scholar}{Austin, TX}
+            \item{Principal Investigator: Liberty Hamilton}
+            \item{Brief postdoc with my PhD advisor focused on the role of posterior insula in auditory processing}
+        \end{rSubsection}
+
+        \begin{rSubsection}{UT Austin Department of Speech, Language, and Hearing Sciences}{2018 - 2024}{Hamilton Lab - Graduate Research Assistant}{Austin, TX}
+            \item{Principal Investigator: Liberty Hamilton; rotation with Jun Wang Fall 2021}
+            \item{Researching processing of auditory feedback during speech production with invasive and noninvasive electrophysiology (ECoG, sEEG, EEG, EMG)}
+            \item{Rotation with Jun Wang focused on decoding of linguistic features from EEG}
+        \end{rSubsection}
+
+        \begin{rSubsection}{UCSF Department of Neurological Surgery}{2016 - 2018}{Chang Lab - Research Specialist}{San Francisco, CA}
+            \item{Principal Investigator: Edward F. Chang}
+            \item{Performed research on recovery from aphasia in postoperative neurosurgical patients and intraoperative cortical stimulation mapping}
+            \item{Maintained active collaborations on multiple projects after leaving lab}
+        \end{rSubsection}
+
+        \begin{rSubsection}{UC Berkeley Department of Linguistics}{2015}{Undergraduate Researcher}{Berkeley, CA}
+            \item{Principal Investigators: Keith Johnson \& Sarah Bakst}
+            % \item{Transcribed/aligned phonetic information in Praat and scripted ultrasound image extraction for Sarah Bakst's dissertation research}
+        \end{rSubsection}
+
+        \begin{rSubsection}{UC Berkeley Department of Linguistics}{2015}{Undergraduate Researcher}{Berkeley, CA}
+            \item{Principal Investigator: Dr. Lev Michael}
+            % \item{Used FLEx to create and maintain a corpus of the morphology of Matsigenka, an Arawakan language}
+        \end{rSubsection}
+
+        \begin{rSubsection}{UC Berkeley Department of Psychology}{2014 - 2015}{Research Assistant \& Morning Supervisor}{Berkeley, CA}
+            \item{Principal Investigator: Dr. Allison Harvey}
+            % \item{Recruited participants and administered cognitive-behavioral tasks to assess early-morning wakefulness in teenagers with sleep disorders}
+            % \item{Trained other RAs to collect data and oversaw morning experiments}
+        \end{rSubsection}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Teaching xp                               %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Teaching Experience}
+        \begin{rSubsection}{UT Austin}{2019 - 2023}{Guest Lecturer}{Austin, TX}
+            \item Departments: Speech, Language and Hearing Sciences, Linguistics, Natural Sciences
+            \item Lectures: ``Introduction to EEG,'' ``Broca and Wernicke are Dead,'' ``Cortical Stimulation Mapping''
+        \end{rSubsection}
+
+        \begin{rSubsection}{UT Austin}{2021}{Assistant Instructor}{Austin, TX}
+            \item Served as the primary instructor for undergraduate course ``Language and the Brain''
+            \item Designed all course materials and led lectures for class of $\sim$70 students and supervised two TAs
+        \end{rSubsection}
+
+        \begin{rSubsection}{UT Austin}{2019 - 2020}{Teaching Assistant}{Austin, TX}
+            \item TA for ``Language and the Brain,'' taught by Dr. Liberty Hamilton in Fall 2019 and Fall 2020 semesters
+        \end{rSubsection}
+
+        \begin{rSubsection}{UC Berkeley ``DeCal'' Program}{2013 - 2015}{Student Instructor}{Berkeley, CA}
+            \item{Served as primary instructor alongside three other undergraduates for ``Intro to 3D Modeling''}
+            \item{Co-created all course materials}
+        \end{rSubsection}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Mentorship                                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Mentorship}
+        \begin{rSubsection}{}{}{}{}
+            \item Janelle Franco, undergraduate, UC Irvine (2025 - )
+            \item Akbar Hussain, graduate, UC Irvine (2024 - )
+            \item Giselle Pedraza, undergraduate, UT Austin (2024)
+            \item Tasha Anslyn, undergraduate, UT Austin (2020 - 2021)
+            \item Valerie Rae Mercado, undergraduate, UT Austin (2019 - 2021)
+            \item Christopher Truong, undergraduate, UT Austin (2019 - 2021)
+            \item Claire Huber, undergraduate, UT Austin (2019 - 2021)
+            \item Nicole Currens, undergraduate, UT Austin (2019 - 2021)
+            \item Amanda Martinez, undergraduate, UT Austin (2019 - 2021)
+            \item Jade Holder, undergraduate, UT Austin (2019 - 2020)
+            \item Cassandra Villarreal, undergraduate, UT Austin (2019 - 2020)
+            \item Paranjaya Pokharel, undergraduate, UT Austin (2019)
+        \end{rSubsection}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Clinic xp                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    % \vspace{1cm}
+
+    \begin{rSection}{Clinical Experience}
+        \begin{rSubsection}{UCSF Memory and Aging Center}{2025 - Present}{Speech-Language Pathology Clinical Fellowship}{San Francisco, CA}
+            \item Supervisor: Willa Keegan-Rodewald, MA, CCC-SLP
+            \item Primary progressive aphasia evaluation and treatment in a clinical research setting
+        \end{rSubsection}
+
+        \begin{rSubsection}{Ascension Seton}{2021}{Speech-Language Pathology Externship}{Austin, TX}
+            \item Supervisor: Elizabeth Otterbein, MS, CCC-SLP
+            \item Treated adult clients in a mixture of inpatient and outpatient hospital settings
+            \item Inpatient treatment focused on bedside swallow examinations, modified barium swallow studies, and dysphagia treatment
+            \item Outpatient treatment focused on management of tracheoesophageal voice prostheses in people with total laryngectomees, voice and lymphedema therapy for survivors of head and neck cancer, modified barium swallow studies, cognitive-linguistic therapy, and gender-affirming voice therapy
+        \end{rSubsection}
+
+
+        \begin{rSubsection}{All Care Therapies}{2020}{Speech-Language Pathology Externship}{Georgetown, TX}
+            \item Supervisors: Holly Mouton, MS, CCC-SLP; Lynzy Melzer, MA, CCC-SLP
+            \item Treated pediatric and adult clients in a private practice setting
+            \item Treatment focused on early language, articulation and phonological disorders, and autism spectrum disorders
+        \end{rSubsection}
+
+        \begin{rSubsection}{Round Rock ISD}{2020}{Speech-Language Pathology Externship}{Round Rock, TX}
+            \item Supervisors: Vanessa Baca, MA, CCC-SLP; Jeanette Fields, MA, CCC-SLP
+            \item Delivered speech-language pathology services to special education students at Stony Point High School with autism spectrum disorders, cognitive deficits, and developmental disorders
+            \item Services focused on social communication, receptive and expressive language through AAC, fluency, articulation, and joint attention
+        \end{rSubsection}
+
+        \begin{rSubsection}{UT Austin}{2019}{Graduate Student Clinician}{Austin, TX}
+            \item Rotation with Nickole Hines-Staples, MA, CCC-SLP, BIES: Evaluation and treatment of children with expressive language, phonological, and articulation disorders at the UT Speech and Hearing Clinic (UTSHC)
+            \item Rotation with Jessica H. Franco, PhD, CCC-SLP, BCBA-D: Treated adults with Autism Spectrum Disorder and Down syndrome in a group setting as part of UTSHC's ``Convo Club;'' evaluated children with phonological disorders
+            \item Rotation with Kristy Armer, M.S., CCC-SLP: Evaluation and treatment of varying adult populations, including Autism Spectrum Disorder and aphasia
+        \end{rSubsection}
+
+        % \begin{rSubsection}{UT Austin}{Aug. 2018 - Dec. 2020}{Graduate Student (List of Relevant Coursework)}{Austin, TX}
+        %   \item Acquired Cognitive Communication Disorders I, II (Maya Henry, Stephanie Grasso)
+        %   \item Anatomy \& Physiology of the Auditory System (Liberty Hamilton)
+        %   \item Developmental Language Disorders (Mary Beth Schmitt)
+        %   \item Dysphagia (Corinne Jones)
+        %   \item Fluency Disorders (independent study, Courtney Byrd)
+        %   \item Human Language Processing (Zenzi Griffin)
+        %   \item Inferential Statistics (Alexander Etz)
+        %   \item Neural Networks and Linguistic Structure (Kyle Mahowald)
+        %   \item Neurolinguistics (Fernando Llanos-Lucas)
+        %   \item Speech Perception (Chang Liu)
+        % \end{rSubsection}
+
+        \begin{rSubsection}{UCSF Department of Neurological Surgery}{2016 - 2018}{Assistant Specialist}{San Francisco, CA}
+            \item Performed aphasia evaluations using WAB, BNT, and QAB (Quick Aphasia Battery) in presurgical and postsurgical patients
+            \item Worked with team of neurologists and neurosurgeons to intraoperatively map language in the brain using nonstandardized language assessments and electrocortical stimulation
+            \item Collected data to help develop new aphasia assessments (QAB, TeleLanguage)
+        \end{rSubsection}
+
+    %   \begin{rSubsection}{In-Home Supportive Services}{Sep. 2013 - Jan. 2015}{Personal Care Attendant}{Berkeley, CA}
+    %       \item Provided assistance for a student with tetraplegia including homemaking, physical therapy, and hygenics
+    %   \end{rSubsection}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Community service                         %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Academic and Community Service}
+        \begin{rSubsection}{}{}{}{}
+            \item{
+                Union of Academic Workers, Local 4811, organizer, 2024 - present
+            }
+            \item{
+                Trans Voice Initiative (TVI), member, 2024 - present
+            }
+            \item{
+                Out in STEM (oSTEM), UT Austin chapter, member, 2022 - 2024
+            }
+            \item{
+                Neuroscience Undergraduate Reading Program (NURP), UT Austin, mentor, 2020
+            }
+            \item{
+                brainWaves Podcast, co-host, 2019 - 2020
+            }
+            \item{
+                Society for Linguistics Undergraduates (SLUgS), UC Berkeley, member/president, 2014 - 2015
+            }
+            \item{
+                3D Modeling Club, UC Berkeley, founding member, 2013 - 2015
+            }
+        % \begin{rSubsection}{Trans Voice Initiative (TVI)}{2024 - Present}{Member}{Irvine, CA}
+        %   \item Member of a volunteer organization for and by gender-diverse speech-language pathologists focused on advocacy and training
+        %   \item Attend continuing education regarding topics in gender-affirming voice therapy
+        % \end{rSubsection}
+
+        % \begin{rSubsection}{Out in Science, Technology, Engineering, and Mathematics (oSTEM)}{2022 - 2024}{Member}{Austin, TX}
+        %   \item Member of an on-campus chapter of an organization for LGBT+ students in STEM
+        %   \item Discussed my experience as a trans PhD student with undergraduates/recent graduate members considering graduate school 
+        % \end{rSubsection}
+
+        % \vspace{2cm}
+
+        % \begin{rSubsection}{Neuroscience Undergraduate Reading Program (NURP)}{2020}{Mentor}{Austin, TX}
+        %   \item Mentored student who conducted original research on an EEG dataset through student organization in the Department of Neuroscience
+        %   \item Project title: ``Do speech errors affect EEG activity in naturalistic perception and production?''
+        % \end{rSubsection}
+
+        % \begin{rSubsection}{brainWaves Podcast}{2019 - 2020}{Co-Host}{Austin, TX}
+        %   \item Co-host of ``brainWaves'' podcast with Maansi Desai, fellow graduate student at UT
+        %   \item Podcast topics included auditory neuroscience, communication disorders, and how to effectively communicate science to the general public as a researcher
+        %   \item Prominent researchers from the fields of auditory neuroscience and communication sciences and disorders are invited as guests onto the podcast to communicate their research in a fashion suitable for the general public
+        % \end{rSubsection}
+
+        % % \begin{rSubsection}{Yellow Bike Project}{Mar. 2019 - Mar. 2020}{Volunteer Mechanic}{Austin, TX}
+        % %     \item Repairing donated bicycles for a local nonprofit bicycle cooperative
+        % % \end{rSubsection}
+
+        % \begin{rSubsection}{Society for Linguistics Undergraduate Students (SLUgS)}{2014 - 2015}{Member \& President}{Berkeley, CA}
+        %   \item Revitalized dormant organization for linguistics undergraduates at UC Berkeley
+        %   \item Coordinated talks for the club from various guest speakers across the disciplines of linguistics (John Ohala, David J. Peterson, John Quijada)
+        %   \item Served as club president from May 2015 to December 2015; returned as an invited speaker/alumnus to discuss my research in the Chang Lab in April 2017
+        % \end{rSubsection}
+
+        % \begin{rSubsection}{3D Modeling Club (3DMC)}{2013 - 2015}{Founding Member}{Berkeley, CA}
+        %   \item Created UC Berkeley's first 3D modeling and printing club with other students
+        %   \item Expanded club by hosting weekly meetings and teaching a student-taught course through the university's ``DeCal'' program
+        %   \item Secured funding for club-owned 3D printing equipment and a dedicated ``makerspace'' on campus
+        %   \item Networked with professional organizations in the 3D printing industry such as Autodesk
+        % \end{rSubsection}
+        \end{rSubsection}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Ad hoc review                             %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Ad hoc review}
+        \begin{rSubsection}{}{}{}{}
+            \item \emph{Brain}, \emph{Neurobiology of Language}, \emph{Journal of Speech, Language, and Hearing Research}, \emph{European Journal of Neuroscience}, \emph{American Journal of Speech-Language Pathology}
+        \end{rSubsection}
+    \end{rSection}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Research skills                           %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+    \begin{rSection}{Research Skills}
+        \begin{rSubsection}{}{}{}{}
+            \item Data collection: EEG, ECoG/sEEG, MRI/fMRI, EMG, cortical stimulation, clinical speech and language assessment
+            \item Analysis techniques: Event-related potentials, neural time series extraction, encoding/decoding models, temporal receptive field modeling, mixed-effects modeling, lesion-symptom mapping, stereotactic electrode localization, corpus analysis, nonnegative matrix factorization, phonetic transcription and forced alignment
+            \item Programming languages: Python (numpy, scipy, sklearn, pandas, mne, torch), MATLAB, R, Swift (Apple fork of Objective-C)
+            \item Miscellaneous software: GNU/Linux, Praat, FreeSurfer, MRIcron, FLEx, XCode, ffmpeg/Audacity, Adobe Creative Cloud (Illustrator, Photoshop, Premiere), \LaTeX
+        \end{rSubsection}
+    \end{rSection}
+
+\emph{Document last compiled: \today}
+
+\end{document}

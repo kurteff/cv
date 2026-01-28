@@ -1,0 +1,13 @@
+# macOS garbage
+**.DS_Store
+
+# LaTeX build files
+**.aux
+**.fdb_latexmk
+**.fls
+**.log
+**.out
+**.synctex.gz
+
+# Local folders
+old/*
